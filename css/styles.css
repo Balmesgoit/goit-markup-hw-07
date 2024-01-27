@@ -1185,9 +1185,69 @@ body {
 
 /*Media Queries*/
 
-@media only screen and (min-width:428px) and (max-width:767){
+@media only screen and (min-width:428px) and (max-width:767px){
     .container {
         width: 775px;
         margin: 0 auto;
     }
 }
+
+@media only screen and (min-width: 428px) and (max-width: 767px), only screen and (max-width: 427px) {
+    .navmenu, 
+    .address {
+        display: none;
+    }
+
+    .page-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    .hero h1 {
+        display:block;
+        max-width: 320px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin: 0 auto 72px;
+    }
+
+    .item .icon {
+        display: none;
+    }
+
+    .container, .list, .item {
+        flex-wrap: wrap;
+        max-width: fit-content;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .sectwo {
+        width: 100%;
+        min-height: 120px;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .headersectwo {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+    }
+ 
+
+}
+
+
+
+
