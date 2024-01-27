@@ -1179,3 +1179,15 @@ body {
 .subscribeicon {
     margin-left: 16px;
 }
+
+
+/*Mobile View*/
+
+/*Media Queries*/
+
+@media only screen and (min-width:428px) and (max-width:767){
+    .container {
+        width: 775px;
+        margin: 0 auto;
+    }
+}
